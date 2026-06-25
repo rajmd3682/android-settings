@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Open Settings</title>
+    <title>Intent Launcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-<h1>Android Settings Launcher</h1>
+<h2>Intent Launcher</h2>
 
-<button onclick="window.location.href='intent://com.android.settings/#Intent;scheme=android-app;end';">
-    Open Settings
-</button>
+<p>
+    <button onclick="window.location.href='intent://com.android.settings/#Intent;scheme=android-app;end';">
+        Open Settings
+    </button>
+</p>
+
+<p>
+    <button onclick="window.location.href='intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end';">
+        Open Google Play Services
+    </button>
+</p>
+
+<p>
+    <button onclick="window.location.href='intent://com.android.chrome/#Intent;scheme=android-app;end';">
+        Open Chrome
+    </button>
+</p>
 
 </body>
 </html>
